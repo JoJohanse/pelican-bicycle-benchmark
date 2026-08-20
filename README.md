@@ -13,75 +13,55 @@ A benchmark testing the SVG generation capabilities of major large language mode
 
 ## Results Overview
 
-8 vendors, 13 models in total.
+8 vendors, 13 models in total. Vendors are ordered by the release date of their earliest model; models within each vendor are listed chronologically.
 
-| Vendor | Model | Thinking Effort | Output File |
-|---|---|---|---|
-| Anthropic | Claude Fable 5 | max | `claude/claude-fable-5/fable-5-max.jpg` |
-| Anthropic | Claude Opus 4.7 | max | `claude/claude-opus-4.7/opus-4.7-max.png` |
-| Anthropic | Claude Opus 4.8 | max | `claude/claude-opus-4.8/opus-4.8-max.jpg` |
-| Anthropic | Claude Sonnet 5 | max | `claude/claude-sonnet-5/sonnet-5-max.png` |
-| DeepSeek | DeepSeek V4 Flash | — | `DeepSeek/deepseek-v4-flash/pelican-bicycle.svg` |
-| DeepSeek | DeepSeek V4 Pro | — | `DeepSeek/deepseek-v4-pro/pelican-bicycle.svg` |
-| Z.ai | GLM-5.2 | max | `GLM/glm-5.2/glm-5.2-max.jpg` |
-| Z.ai | GLM-5.3 | max | `GLM/glm-5.3/glm-5.3-max.svg` (PNG render included) |
-| OpenAI | GPT-5.5 | xhigh | `GPT/gpt-5.5/gpt-5.5-pelican-xhigh.png` |
-| OpenAI | GPT-5.6 Luna | high / xhigh / max | `GPT/gpt-5.6-luna/` |
-| OpenAI | GPT-5.6 Sol | high / xhigh / max | `GPT/gpt-5.6-sol/` |
-| OpenAI | GPT-5.6 Terra | high / xhigh / max | `GPT/gpt-5.6-terra/` (SVG and PNG for each) |
-| Moonshot AI | Kimi K3 | — | `Kimi/kimi-k3/kimi-3-pelican.jpg` |
-| Meta | Muse Spark 1.2 | — | `meta/muse-spark-1.2/pelican_bicycle.svg` |
-| Alibaba | Qwen 3.8 27B | — | `Qwen/Qwen-3.8-27B/qwen-thinking-bicycle-27b.jpg` |
-| Alibaba | Qwen 3.8 Max | — | `Qwen/Qwen-3.8-Max/qwen-3.8-max-pelican.png` |
-| Xiaomi | MiMo v2.5 Pro | — | `xiaomi/mimo-v2.5-pro/pelican-on-bike.svg` |
+| Vendor | Model | Release Date | Thinking Effort | Output File |
+|---|---|---|---|---|
+| Anthropic | Claude Opus 4.7 | 2026-04-16 | max | `claude/claude-opus-4.7/opus-4.7-max.png` |
+| Anthropic | Claude Opus 4.8 | 2026-05-28 | max | `claude/claude-opus-4.8/opus-4.8-max.jpg` |
+| Anthropic | Claude Fable 5 | 2026-06-09 | max | `claude/claude-fable-5/fable-5-max.jpg` |
+| Anthropic | Claude Sonnet 5 | 2026-06-30 | max | `claude/claude-sonnet-5/sonnet-5-max.png` |
+| OpenAI | GPT-5.5 | 2026-04-23 | xhigh | `GPT/gpt-5.5/gpt-5.5-pelican-xhigh.png` |
+| OpenAI | GPT-5.6 Luna | 2026-07-09 | high / xhigh / max | `GPT/gpt-5.6-luna/` |
+| OpenAI | GPT-5.6 Sol | 2026-07-09 | high / xhigh / max | `GPT/gpt-5.6-sol/` |
+| OpenAI | GPT-5.6 Terra | 2026-07-09 | high / xhigh / max | `GPT/gpt-5.6-terra/` (SVG and PNG for each) |
+| DeepSeek | DeepSeek V4 Pro | 2026-04-24 (preview) | — | `DeepSeek/deepseek-v4-pro/pelican-bicycle.svg` |
+| DeepSeek | DeepSeek V4 Flash | 2026-04-24 (preview) | — | `DeepSeek/deepseek-v4-flash/pelican-bicycle.svg` |
+| Xiaomi | MiMo v2.5 Pro | 2026-04-27 | — | `xiaomi/mimo-v2.5-pro/pelican-on-bike.svg` |
+| Z.ai | GLM-5.2 | 2026-06-16 | max | `GLM/glm-5.2/glm-5.2-max.jpg` |
+| Z.ai | GLM-5.3 | 2026-08-14 | max | `GLM/glm-5.3/glm-5.3-max.svg` (PNG render included) |
+| Moonshot AI | Kimi K3 | 2026-07-16 | — | `Kimi/kimi-k3/kimi-3-pelican.jpg` |
+| Alibaba | Qwen 3.8 Max | 2026-08-03 | — | `Qwen/Qwen-3.8-Max/qwen-3.8-max-pelican.png` |
+| Alibaba | Qwen 3.8 27B | 2026-08 (mid) | — | `Qwen/Qwen-3.8-27B/qwen-thinking-bicycle-27b.jpg` |
+| Meta | Muse Spark 1.2 | 2026-08-05 | — | `meta/muse-spark-1.2/pelican_bicycle.svg` |
 
 ## Model Outputs
 
 ### Anthropic
 
-#### Claude Fable 5
-
-![Claude Fable 5](claude/claude-fable-5/fable-5-max.jpg)
-
-#### Claude Opus 4.7
+#### Claude Opus 4.7 (2026-04-16)
 
 ![Claude Opus 4.7](claude/claude-opus-4.7/opus-4.7-max.png)
 
-#### Claude Opus 4.8
+#### Claude Opus 4.8 (2026-05-28)
 
 ![Claude Opus 4.8](claude/claude-opus-4.8/opus-4.8-max.jpg)
 
-#### Claude Sonnet 5
+#### Claude Fable 5 (2026-06-09)
+
+![Claude Fable 5](claude/claude-fable-5/fable-5-max.jpg)
+
+#### Claude Sonnet 5 (2026-06-30)
 
 ![Claude Sonnet 5](claude/claude-sonnet-5/sonnet-5-max.png)
 
-### DeepSeek
-
-#### DeepSeek V4 Flash
-
-![DeepSeek V4 Flash](DeepSeek/deepseek-v4-flash/pelican-bicycle.svg)
-
-#### DeepSeek V4 Pro
-
-![DeepSeek V4 Pro](DeepSeek/deepseek-v4-pro/pelican-bicycle.svg)
-
-### Z.ai
-
-#### GLM-5.2
-
-![GLM-5.2](GLM/glm-5.2/glm-5.2-max.jpg)
-
-#### GLM-5.3
-
-![GLM-5.3](GLM/glm-5.3/glm-5.3-max.svg)
-
 ### OpenAI
 
-#### GPT-5.5 (xhigh)
+#### GPT-5.5 (2026-04-23, xhigh)
 
 ![GPT-5.5](GPT/gpt-5.5/gpt-5.5-pelican-xhigh.png)
 
-#### GPT-5.6 Luna
+#### GPT-5.6 Luna (2026-07-09)
 
 high:
 
@@ -95,7 +75,7 @@ max:
 
 ![GPT-5.6 Luna max](GPT/gpt-5.6-luna/max/max.png)
 
-#### GPT-5.6 Sol
+#### GPT-5.6 Sol (2026-07-09)
 
 high:
 
@@ -109,7 +89,7 @@ max:
 
 ![GPT-5.6 Sol max](GPT/gpt-5.6-sol/max/max.png)
 
-#### GPT-5.6 Terra
+#### GPT-5.6 Terra (2026-07-09)
 
 high:
 
@@ -123,30 +103,50 @@ max:
 
 ![GPT-5.6 Terra max](GPT/gpt-5.6-terra/max/5.6-terra-max.png)
 
-### Moonshot AI
+### DeepSeek
 
-#### Kimi K3
+#### DeepSeek V4 Pro (2026-04-24)
 
-![Kimi K3](Kimi/kimi-k3/kimi-3-pelican.jpg)
+![DeepSeek V4 Pro](DeepSeek/deepseek-v4-pro/pelican-bicycle.svg)
 
-### Meta
+#### DeepSeek V4 Flash (2026-04-24)
 
-#### Muse Spark 1.2
-
-![Muse Spark 1.2](meta/muse-spark-1.2/pelican_bicycle.svg)
-
-### Alibaba
-
-#### Qwen 3.8 27B
-
-![Qwen 3.8 27B](Qwen/Qwen-3.8-27B/qwen-thinking-bicycle-27b.jpg)
-
-#### Qwen 3.8 Max
-
-![Qwen 3.8 Max](Qwen/Qwen-3.8-Max/qwen-3.8-max-pelican.png)
+![DeepSeek V4 Flash](DeepSeek/deepseek-v4-flash/pelican-bicycle.svg)
 
 ### Xiaomi
 
-#### MiMo v2.5 Pro
+#### MiMo v2.5 Pro (2026-04-27)
 
 ![MiMo v2.5 Pro](xiaomi/mimo-v2.5-pro/pelican-on-bike.svg)
+
+### Z.ai
+
+#### GLM-5.2 (2026-06-16)
+
+![GLM-5.2](GLM/glm-5.2/glm-5.2-max.jpg)
+
+#### GLM-5.3 (2026-08-14)
+
+![GLM-5.3](GLM/glm-5.3/glm-5.3-max.svg)
+
+### Moonshot AI
+
+#### Kimi K3 (2026-07-16)
+
+![Kimi K3](Kimi/kimi-k3/kimi-3-pelican.jpg)
+
+### Alibaba
+
+#### Qwen 3.8 Max (2026-08-03)
+
+![Qwen 3.8 Max](Qwen/Qwen-3.8-Max/qwen-3.8-max-pelican.png)
+
+#### Qwen 3.8 27B (2026-08)
+
+![Qwen 3.8 27B](Qwen/Qwen-3.8-27B/qwen-thinking-bicycle-27b.jpg)
+
+### Meta
+
+#### Muse Spark 1.2 (2026-08-05)
+
+![Muse Spark 1.2](meta/muse-spark-1.2/pelican_bicycle.svg)
