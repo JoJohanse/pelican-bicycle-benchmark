@@ -1,21 +1,21 @@
 # Pelican Bicycle Benchmark
 
-English | [简体中文](readme_zh.md)
+[English](README.md) | 简体中文
 
-A benchmark testing the SVG generation capabilities of major large language models.
+测试各大模型 SVG 生成能力的项目。
 
-## Methodology
+## 测试方法
 
-- All models received the **exact same** prompt: `generate an svg of a pelican riding a bicycle`
-- Outputs are stored under `vendor/model/` directories
-- Unless otherwise noted, images were generated at the **maximum thinking effort**
-- Some directories contain both the SVG source file and a rendered PNG
+- 所有模型输入**完全相同**的提示词：`generate an svg of a pelican riding a bicycle`
+- 输出结果按 `厂商/模型/` 目录分类存放
+- 未标注思考强度的图片均为**最大思考强度**下输出
+- 部分目录同时保存 SVG 源文件与 PNG 渲染图
 
-## Results Overview
+## 结果总览
 
-8 vendors, 13 models in total.
+共 8 家厂商、13 个模型。
 
-| Vendor | Model | Thinking Effort | Output File |
+| 厂商 | 模型 | 思考强度 | 输出文件 |
 |---|---|---|---|
 | Anthropic | Claude Fable 5 | max | `claude/claude-fable-5/fable-5-max.jpg` |
 | Anthropic | Claude Opus 4.7 | max | `claude/claude-opus-4.7/opus-4.7-max.png` |
@@ -24,18 +24,18 @@ A benchmark testing the SVG generation capabilities of major large language mode
 | DeepSeek | DeepSeek V4 Flash | — | `DeepSeek/deepseek-v4-flash/pelican-bicycle.svg` |
 | DeepSeek | DeepSeek V4 Pro | — | `DeepSeek/deepseek-v4-pro/pelican-bicycle.svg` |
 | Z.ai | GLM-5.2 | max | `GLM/glm-5.2/glm-5.2-max.jpg` |
-| Z.ai | GLM-5.3 | max | `GLM/glm-5.3/glm-5.3-max.svg` (PNG render included) |
+| Z.ai | GLM-5.3 | max | `GLM/glm-5.3/glm-5.3-max.svg`（附 PNG 渲染图） |
 | OpenAI | GPT-5.5 | xhigh | `GPT/gpt-5.5/gpt-5.5-pelican-xhigh.png` |
 | OpenAI | GPT-5.6 Luna | high / xhigh / max | `GPT/gpt-5.6-luna/` |
 | OpenAI | GPT-5.6 Sol | high / xhigh / max | `GPT/gpt-5.6-sol/` |
-| OpenAI | GPT-5.6 Terra | high / xhigh / max | `GPT/gpt-5.6-terra/` (SVG and PNG for each) |
-| Moonshot AI | Kimi K3 | — | `Kimi/kimi-k3/kimi-3-pelican.jpg` |
+| OpenAI | GPT-5.6 Terra | high / xhigh / max | `GPT/gpt-5.6-terra/`（各含 SVG 与 PNG） |
+| Moonshot | Kimi K3 | — | `Kimi/kimi-k3/kimi-3-pelican.jpg` |
 | Meta | Muse Spark 1.2 | — | `meta/muse-spark-1.2/pelican_bicycle.svg` |
 | Alibaba | Qwen 3.8 27B | — | `Qwen/Qwen-3.8-27B/qwen-thinking-bicycle-27b.jpg` |
 | Alibaba | Qwen 3.8 Max | — | `Qwen/Qwen-3.8-Max/qwen-3.8-max-pelican.png` |
 | Xiaomi | MiMo v2.5 Pro | — | `xiaomi/mimo-v2.5-pro/pelican-on-bike.svg` |
 
-## Model Outputs
+## 各模型输出
 
 ### Anthropic
 
@@ -77,53 +77,53 @@ A benchmark testing the SVG generation capabilities of major large language mode
 
 ### OpenAI
 
-#### GPT-5.5 (xhigh)
+#### GPT-5.5（xhigh）
 
 ![GPT-5.5](GPT/gpt-5.5/gpt-5.5-pelican-xhigh.png)
 
 #### GPT-5.6 Luna
 
-high:
+high：
 
 ![GPT-5.6 Luna high](GPT/gpt-5.6-luna/high/high.png)
 
-xhigh:
+xhigh：
 
 ![GPT-5.6 Luna xhigh](GPT/gpt-5.6-luna/xhigh/xhigh.png)
 
-max:
+max：
 
 ![GPT-5.6 Luna max](GPT/gpt-5.6-luna/max/max.png)
 
 #### GPT-5.6 Sol
 
-high:
+high：
 
 ![GPT-5.6 Sol high](GPT/gpt-5.6-sol/high/high.png)
 
-xhigh:
+xhigh：
 
 ![GPT-5.6 Sol xhigh](GPT/gpt-5.6-sol/xhigh/xhigh.png)
 
-max:
+max：
 
 ![GPT-5.6 Sol max](GPT/gpt-5.6-sol/max/max.png)
 
 #### GPT-5.6 Terra
 
-high:
+high：
 
 ![GPT-5.6 Terra high](GPT/gpt-5.6-terra/high/5.6-terra-high.png)
 
-xhigh:
+xhigh：
 
 ![GPT-5.6 Terra xhigh](GPT/gpt-5.6-terra/xhigh/5.6-terra-xhigh.png)
 
-max:
+max：
 
 ![GPT-5.6 Terra max](GPT/gpt-5.6-terra/max/5.6-terra-max.png)
 
-### Moonshot AI
+### Moonshot
 
 #### Kimi K3
 
