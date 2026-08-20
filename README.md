@@ -8,8 +8,6 @@ A benchmark testing the SVG generation capabilities of major large language mode
 
 - All models received the **exact same** prompt: `generate an svg of a pelican riding a bicycle`
 - Outputs are stored under `vendor/model/` directories
-- Unless otherwise noted, images were generated at the **maximum thinking effort**
-- Some directories contain both the SVG source file and a rendered PNG
 
 ## Results Overview
 
@@ -24,16 +22,16 @@ A benchmark testing the SVG generation capabilities of major large language mode
 | OpenAI | GPT-5.5 | 2026-04-23 | xhigh | `GPT/gpt-5.5/gpt-5.5-pelican-xhigh.png` |
 | OpenAI | GPT-5.6 Luna | 2026-07-09 | high / xhigh / max | `GPT/gpt-5.6-luna/` |
 | OpenAI | GPT-5.6 Sol | 2026-07-09 | high / xhigh / max | `GPT/gpt-5.6-sol/` |
-| OpenAI | GPT-5.6 Terra | 2026-07-09 | high / xhigh / max | `GPT/gpt-5.6-terra/` (SVG and PNG for each) |
-| DeepSeek | DeepSeek V4 Pro | 2026-04-24 (preview) | — | `DeepSeek/deepseek-v4-pro/pelican-bicycle.svg` |
-| DeepSeek | DeepSeek V4 Flash | 2026-04-24 (preview) | — | `DeepSeek/deepseek-v4-flash/pelican-bicycle.svg` |
-| Xiaomi | MiMo v2.5 Pro | 2026-04-27 | — | `xiaomi/mimo-v2.5-pro/pelican-on-bike.svg` |
+| OpenAI | GPT-5.6 Terra | 2026-07-09 | high / xhigh / max | `GPT/gpt-5.6-terra/` |
+| DeepSeek | DeepSeek V4 Pro | 2026-08-13 | max | `DeepSeek/deepseek-v4-pro/v4-pro.png` |
+| DeepSeek | DeepSeek V4 Flash | 2026-07-31 | max | `DeepSeek/deepseek-v4-flash/v4-flash.png` |
+| Xiaomi | MiMo v2.5 Pro | 2026-04-27 | max | `xiaomi/mimo-v2.5-pro/mimo-v2.5-pro.png` |
 | Z.ai | GLM-5.2 | 2026-06-16 | max | `GLM/glm-5.2/glm-5.2-max.jpg` |
-| Z.ai | GLM-5.3 | 2026-08-14 | max | `GLM/glm-5.3/glm-5.3-max.svg` (PNG render included) |
-| Moonshot AI | Kimi K3 | 2026-07-16 | — | `Kimi/kimi-k3/kimi-3-pelican.jpg` |
-| Alibaba | Qwen 3.8 Max | 2026-08-03 | — | `Qwen/Qwen-3.8-Max/qwen-3.8-max-pelican.png` |
-| Alibaba | Qwen 3.8 27B | 2026-08 (mid) | — | `Qwen/Qwen-3.8-27B/qwen-thinking-bicycle-27b.jpg` |
-| Meta | Muse Spark 1.2 | 2026-08-05 | — | `meta/muse-spark-1.2/pelican_bicycle.svg` |
+| Z.ai | GLM-5.3 | 2026-08-14 | max | `GLM/glm-5.3/glm-5.3-max.png` |
+| Moonshot AI | Kimi K3 | 2026-07-16 | max | `Kimi/kimi-k3/kimi-3-pelican.jpg` |
+| Alibaba | Qwen 3.8 Max | 2026-08-03 | max | `Qwen/Qwen-3.8-Max/qwen-3.8-max-pelican.png` |
+| Alibaba | Qwen 3.8 27B | 2026-08-14 | max | `Qwen/Qwen-3.8-27B/qwen-thinking-bicycle-27b.jpg` |
+| Meta | Muse Spark 1.2 | 2026-08-05 | max | `meta/muse-spark-1.2/muse-spark-1.2.png` |
 
 ## Model Outputs
 
@@ -107,17 +105,17 @@ max:
 
 #### DeepSeek V4 Pro (2026-04-24)
 
-![DeepSeek V4 Pro](DeepSeek/deepseek-v4-pro/pelican-bicycle.svg)
+![DeepSeek V4 Pro](DeepSeek/deepseek-v4-pro/v4-pro.png)
 
-#### DeepSeek V4 Flash (2026-04-24)
+#### DeepSeek V4 Flash (2026-07-31)
 
-![DeepSeek V4 Flash](DeepSeek/deepseek-v4-flash/pelican-bicycle.svg)
+![DeepSeek V4 Flash](DeepSeek/deepseek-v4-flash/v4-flash.png)
 
 ### Xiaomi
 
 #### MiMo v2.5 Pro (2026-04-27)
 
-![MiMo v2.5 Pro](xiaomi/mimo-v2.5-pro/pelican-on-bike.svg)
+![MiMo v2.5 Pro](xiaomi/mimo-v2.5-pro/mimo-v2.5-pro.png)
 
 ### Z.ai
 
@@ -127,7 +125,7 @@ max:
 
 #### GLM-5.3 (2026-08-14)
 
-![GLM-5.3](GLM/glm-5.3/glm-5.3-max.svg)
+![GLM-5.3](GLM/glm-5.3/glm-5.3-max.png)
 
 ### Moonshot AI
 
@@ -141,7 +139,7 @@ max:
 
 ![Qwen 3.8 Max](Qwen/Qwen-3.8-Max/qwen-3.8-max-pelican.png)
 
-#### Qwen 3.8 27B (2026-08)
+#### Qwen 3.8 27B (2026-08-14)
 
 ![Qwen 3.8 27B](Qwen/Qwen-3.8-27B/qwen-thinking-bicycle-27b.jpg)
 
@@ -149,4 +147,4 @@ max:
 
 #### Muse Spark 1.2 (2026-08-05)
 
-![Muse Spark 1.2](meta/muse-spark-1.2/pelican_bicycle.svg)
+![Muse Spark 1.2](meta/muse-spark-1.2/muse-spark-1.2.png)
