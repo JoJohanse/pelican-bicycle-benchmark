@@ -23,8 +23,8 @@ A benchmark testing the SVG generation capabilities of major large language mode
 | OpenAI | GPT-5.6 Luna | 2026-07-09 | high / xhigh / max | `GPT/gpt-5.6-luna/` |
 | OpenAI | GPT-5.6 Sol | 2026-07-09 | high / xhigh / max | `GPT/gpt-5.6-sol/` |
 | OpenAI | GPT-5.6 Terra | 2026-07-09 | high / xhigh / max | `GPT/gpt-5.6-terra/` |
-| DeepSeek | DeepSeek V4 Pro | 2026-08-13 | max | `DeepSeek/deepseek-v4-pro/v4-pro.png` |
 | DeepSeek | DeepSeek V4 Flash | 2026-07-31 | max | `DeepSeek/deepseek-v4-flash/v4-flash.png` |
+| DeepSeek | DeepSeek V4 Pro | 2026-08-13 | max | `DeepSeek/deepseek-v4-pro/v4-pro.png` |
 | Xiaomi | MiMo v2.5 Pro | 2026-04-27 | max | `xiaomi/mimo-v2.5-pro/mimo-v2.5-pro.png` |
 | Z.ai | GLM-5.2 | 2026-06-16 | max | `GLM/glm-5.2/glm-5.2-max.jpg` |
 | Z.ai | GLM-5.3 | 2026-08-14 | max | `GLM/glm-5.3/glm-5.3-max.png` |
@@ -39,112 +39,112 @@ A benchmark testing the SVG generation capabilities of major large language mode
 
 #### Claude Opus 4.7 (2026-04-16)
 
-![Claude Opus 4.7](claude/claude-opus-4.7/opus-4.7-max.png)
+<img src="claude/claude-opus-4.7/opus-4.7-max.png" width="600" alt="Claude Opus 4.7">
 
 #### Claude Opus 4.8 (2026-05-28)
 
-![Claude Opus 4.8](claude/claude-opus-4.8/opus-4.8-max.jpg)
+<img src="claude/claude-opus-4.8/opus-4.8-max.jpg" width="600" alt="Claude Opus 4.8">
 
 #### Claude Fable 5 (2026-06-09)
 
-![Claude Fable 5](claude/claude-fable-5/fable-5-max.jpg)
+<img src="claude/claude-fable-5/fable-5-max.jpg" width="600" alt="Claude Fable 5">
 
 #### Claude Sonnet 5 (2026-06-30)
 
-![Claude Sonnet 5](claude/claude-sonnet-5/sonnet-5-max.png)
+<img src="claude/claude-sonnet-5/sonnet-5-max.png" width="600" alt="Claude Sonnet 5">
 
 ### OpenAI
 
 #### GPT-5.5 (2026-04-23, xhigh)
 
-![GPT-5.5](GPT/gpt-5.5/gpt-5.5-pelican-xhigh.png)
+<img src="GPT/gpt-5.5/gpt-5.5-pelican-xhigh.png" width="600" alt="GPT-5.5">
 
 #### GPT-5.6 Luna (2026-07-09)
 
 high:
 
-![GPT-5.6 Luna high](GPT/gpt-5.6-luna/high/high.png)
+<img src="GPT/gpt-5.6-luna/high/high.png" width="600" alt="GPT-5.6 Luna high">
 
 xhigh:
 
-![GPT-5.6 Luna xhigh](GPT/gpt-5.6-luna/xhigh/xhigh.png)
+<img src="GPT/gpt-5.6-luna/xhigh/xhigh.png" width="600" alt="GPT-5.6 Luna xhigh">
 
 max:
 
-![GPT-5.6 Luna max](GPT/gpt-5.6-luna/max/max.png)
+<img src="GPT/gpt-5.6-luna/max/max.png" width="600" alt="GPT-5.6 Luna max">
 
 #### GPT-5.6 Sol (2026-07-09)
 
 high:
 
-![GPT-5.6 Sol high](GPT/gpt-5.6-sol/high/high.png)
+<img src="GPT/gpt-5.6-sol/high/high.png" width="600" alt="GPT-5.6 Sol high">
 
 xhigh:
 
-![GPT-5.6 Sol xhigh](GPT/gpt-5.6-sol/xhigh/xhigh.png)
+<img src="GPT/gpt-5.6-sol/xhigh/xhigh.png" width="600" alt="GPT-5.6 Sol xhigh">
 
 max:
 
-![GPT-5.6 Sol max](GPT/gpt-5.6-sol/max/max.png)
+<img src="GPT/gpt-5.6-sol/max/max.png" width="600" alt="GPT-5.6 Sol max">
 
 #### GPT-5.6 Terra (2026-07-09)
 
 high:
 
-![GPT-5.6 Terra high](GPT/gpt-5.6-terra/high/5.6-terra-high.png)
+<img src="GPT/gpt-5.6-terra/high/5.6-terra-high.png" width="600" alt="GPT-5.6 Terra high">
 
 xhigh:
 
-![GPT-5.6 Terra xhigh](GPT/gpt-5.6-terra/xhigh/5.6-terra-xhigh.png)
+<img src="GPT/gpt-5.6-terra/xhigh/5.6-terra-xhigh.png" width="600" alt="GPT-5.6 Terra xhigh">
 
 max:
 
-![GPT-5.6 Terra max](GPT/gpt-5.6-terra/max/5.6-terra-max.png)
+<img src="GPT/gpt-5.6-terra/max/5.6-terra-max.png" width="600" alt="GPT-5.6 Terra max">
 
 ### DeepSeek
 
-#### DeepSeek V4 Pro (2026-04-24)
-
-![DeepSeek V4 Pro](DeepSeek/deepseek-v4-pro/v4-pro.png)
-
 #### DeepSeek V4 Flash (2026-07-31)
 
-![DeepSeek V4 Flash](DeepSeek/deepseek-v4-flash/v4-flash.png)
+<img src="DeepSeek/deepseek-v4-flash/v4-flash.png" width="600" alt="DeepSeek V4 Flash">
+
+#### DeepSeek V4 Pro (2026-08-13)
+
+<img src="DeepSeek/deepseek-v4-pro/v4-pro.png" width="600" alt="DeepSeek V4 Pro">
 
 ### Xiaomi
 
 #### MiMo v2.5 Pro (2026-04-27)
 
-![MiMo v2.5 Pro](xiaomi/mimo-v2.5-pro/mimo-v2.5-pro.png)
+<img src="xiaomi/mimo-v2.5-pro/mimo-v2.5-pro.png" width="600" alt="MiMo v2.5 Pro">
 
 ### Z.ai
 
 #### GLM-5.2 (2026-06-16)
 
-![GLM-5.2](GLM/glm-5.2/glm-5.2-max.jpg)
+<img src="GLM/glm-5.2/glm-5.2-max.jpg" width="600" alt="GLM-5.2">
 
 #### GLM-5.3 (2026-08-14)
 
-![GLM-5.3](GLM/glm-5.3/glm-5.3-max.png)
+<img src="GLM/glm-5.3/glm-5.3-max.png" width="600" alt="GLM-5.3">
 
 ### Moonshot AI
 
 #### Kimi K3 (2026-07-16)
 
-![Kimi K3](Kimi/kimi-k3/kimi-3-pelican.jpg)
+<img src="Kimi/kimi-k3/kimi-3-pelican.jpg" width="600" alt="Kimi K3">
 
 ### Alibaba
 
 #### Qwen 3.8 Max (2026-08-03)
 
-![Qwen 3.8 Max](Qwen/Qwen-3.8-Max/qwen-3.8-max-pelican.png)
+<img src="Qwen/Qwen-3.8-Max/qwen-3.8-max-pelican.png" width="600" alt="Qwen 3.8 Max">
 
 #### Qwen 3.8 27B (2026-08-14)
 
-![Qwen 3.8 27B](Qwen/Qwen-3.8-27B/qwen-thinking-bicycle-27b.jpg)
+<img src="Qwen/Qwen-3.8-27B/qwen-thinking-bicycle-27b.jpg" width="600" alt="Qwen 3.8 27B">
 
 ### Meta
 
 #### Muse Spark 1.2 (2026-08-05)
 
-![Muse Spark 1.2](meta/muse-spark-1.2/muse-spark-1.2.png)
+<img src="meta/muse-spark-1.2/muse-spark-1.2.png" width="600" alt="Muse Spark 1.2">
