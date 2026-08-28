@@ -33,8 +33,8 @@ A benchmark testing the SVG generation capabilities of major large language mode
 | Alibaba | Qwen 3.8 Max | 2026-08-03 | max | `Qwen/Qwen-3.8-Max/qwen-3.8-max-pelican.png` |
 | Alibaba | Qwen 3.8 27B | 2026-08-14 | max | `Qwen/Qwen-3.8-27B/qwen-thinking-bicycle-27b.jpg` |
 | Meta | Muse Spark 1.2 | 2026-08-05 | max | `meta/muse-spark-1.2/muse-spark-1.2.png` |
-| Tencent | Hunyuan 3 | — | max | `tencent/hy3/hy3-max.png` |
-| Tencent | Hunyuan 4 | — | max | `tencent/hy4/hy4-max.png` |
+| Tencent | Hunyuan 3 | 2026-07-06 | max | `tencent/hy3/hy3-max.png` |
+| Tencent | Hunyuan 4 | 2026-08-28 | max | `tencent/hy4/hy4-max.png` |
 
 ## Model Outputs
 
@@ -99,4 +99,4 @@ A benchmark testing the SVG generation capabilities of major large language mode
 
 | | |
 |---|---|
-| **Hunyuan 3**<br>—<br><img src="tencent/hy3/hy3-max.png" width="300" height= "250" alt="Hunyuan 3"> | **Hunyuan 4**<br>—<br><img src="tencent/hy4/hy4-max.png" width="300" height= "250" alt="Hunyuan 4"> |
+| **Hunyuan 3**<br>2026-07-06<br><img src="tencent/hy3/hy3-max.png" width="300" height= "250" alt="Hunyuan 3"> | **Hunyuan 4**<br>2026-08-28<br><img src="tencent/hy4/hy4-max.png" width="300" height= "250" alt="Hunyuan 4"> |
