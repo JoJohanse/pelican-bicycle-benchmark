@@ -99,4 +99,4 @@ SVG生成基准测试
 
 | | |
 |---|---|
-| **Hunyuan 3**<br>—<br><img src="tencent/hy3/hy3-max.png" width="300" height= "250" alt="Hunyuan 3"> | **Hunyuan 4**<br>—<br><img src="tencent/hy4/hy4-max.png" width="300" height= "250" alt="Hunyuan 4"> |
+| **Hunyuan 3**<br>2026-07-06<br><img src="tencent/hy3/hy3-max.png" width="300" height= "250" alt="Hunyuan 3"> | **Hunyuan 4**<br>2026-08-28<br><img src="tencent/hy4/hy4-max.png" width="300" height= "250" alt="Hunyuan 4"> |
