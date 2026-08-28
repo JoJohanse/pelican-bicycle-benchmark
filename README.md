@@ -11,7 +11,7 @@ A benchmark testing the SVG generation capabilities of major large language mode
 
 ## Results Overview
 
-8 vendors, 14 models in total, plus one unnamed output under `other/`. Vendors are ordered by the release date of their earliest model; models within each vendor are listed chronologically.
+9 vendors, 20 models in total. Vendors are ordered by the release date of their earliest model; models within each vendor are listed chronologically.
 
 | Vendor | Model | Release Date | Thinking Effort | Output File |
 |---|---|---|---|---|
@@ -33,6 +33,8 @@ A benchmark testing the SVG generation capabilities of major large language mode
 | Alibaba | Qwen 3.8 Max | 2026-08-03 | max | `Qwen/Qwen-3.8-Max/qwen-3.8-max-pelican.png` |
 | Alibaba | Qwen 3.8 27B | 2026-08-14 | max | `Qwen/Qwen-3.8-27B/qwen-thinking-bicycle-27b.jpg` |
 | Meta | Muse Spark 1.2 | 2026-08-05 | max | `meta/muse-spark-1.2/muse-spark-1.2.png` |
+| Tencent | Hunyuan 3 | — | max | `tencent/hy3/hy3-max.png` |
+| Tencent | Hunyuan 4 | — | max | `tencent/hy4/hy4-max.png` |
 
 ## Model Outputs
 
@@ -92,3 +94,9 @@ A benchmark testing the SVG generation capabilities of major large language mode
 **Muse Spark 1.2** (2026-08-05)
 
 <img src="meta/muse-spark-1.2/muse-spark-1.2.png" width="300" height= "250" alt="Muse Spark 1.2">
+
+### Tencent
+
+| | |
+|---|---|
+| **Hunyuan 3**<br>—<br><img src="tencent/hy3/hy3-max.png" width="300" height= "250" alt="Hunyuan 3"> | **Hunyuan 4**<br>—<br><img src="tencent/hy4/hy4-max.png" width="300" height= "250" alt="Hunyuan 4"> |

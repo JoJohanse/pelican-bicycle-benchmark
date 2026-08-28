@@ -11,7 +11,7 @@ SVG生成基准测试
 
 ## 结果总览
 
-共 8 家厂商、14 个模型，另有 1 个未标注模型的输出存放在 `other/`。厂商按其最早模型的发布时间排列，同一厂商内的模型按发布时间先后排序。
+共 9 家厂商、20 个模型。厂商按其最早模型的发布时间排列，同一厂商内的模型按发布时间先后排序。
 
 | 厂商 | 模型 | 发布时间 | 思考强度 | 输出文件 |
 |---|---|---|---|---|
@@ -33,6 +33,8 @@ SVG生成基准测试
 | 阿里巴巴 | Qwen 3.8 Max | 2026-08-03 | max | `Qwen/Qwen-3.8-Max/qwen-3.8-max-pelican.png` |
 | 阿里巴巴 | Qwen 3.8 27B | 2026-08-14 | max | `Qwen/Qwen-3.8-27B/qwen-thinking-bicycle-27b.jpg` |
 | Meta | Muse Spark 1.2 | 2026-08-05 | max | `meta/muse-spark-1.2/muse-spark-1.2.png` |
+| 腾讯 | Hunyuan 3 | — | max | `tencent/hy3/hy3-max.png` |
+| 腾讯 | Hunyuan 4 | — | max | `tencent/hy4/hy4-max.png` |
 
 ## 各模型结果
 
@@ -92,3 +94,9 @@ SVG生成基准测试
 **Muse Spark 1.2** (2026-08-05)
 
 <img src="meta/muse-spark-1.2/muse-spark-1.2.png" width="300" height= "250" alt="Muse Spark 1.2">
+
+### 腾讯 混元
+
+| | |
+|---|---|
+| **Hunyuan 3**<br>—<br><img src="tencent/hy3/hy3-max.png" width="300" height= "250" alt="Hunyuan 3"> | **Hunyuan 4**<br>—<br><img src="tencent/hy4/hy4-max.png" width="300" height= "250" alt="Hunyuan 4"> |
