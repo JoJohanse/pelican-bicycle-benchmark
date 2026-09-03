@@ -11,7 +11,7 @@ A benchmark testing the SVG generation capabilities of major large language mode
 
 ## Results Overview
 
-9 vendors, 20 models in total. Vendors are ordered by the release date of their earliest model; models within each vendor are listed chronologically.
+9 vendors, 21 models in total. Vendors are ordered by the release date of their earliest model; models within each vendor are listed chronologically.
 
 | Vendor | Model | Release Date | Thinking Effort | Output File |
 |---|---|---|---|---|
@@ -33,6 +33,7 @@ A benchmark testing the SVG generation capabilities of major large language mode
 | Alibaba | Qwen 3.8 Max | 2026-08-03 | max | `Qwen/Qwen-3.8-Max/qwen-3.8-max-pelican.png` |
 | Alibaba | Qwen 3.8 27B | 2026-08-14 | max | `Qwen/Qwen-3.8-27B/qwen-thinking-bicycle-27b.jpg` |
 | Meta | Muse Spark 1.2 | 2026-08-05 | max | `meta/muse-spark-1.2/muse-spark-1.2.png` |
+| Meta | Muse Spark 1.3 | 2026-09-03 | xhigh | `meta/muse-spark-1.3/muse-spark-1.3-xhigh.png` |
 | Tencent | Hunyuan 3 | 2026-07-06 | max | `tencent/hy3/hy3-max.png` |
 | Tencent | Hunyuan 4 | 2026-08-28 | max | `tencent/hy4/hy4-max.png` |
 
@@ -91,9 +92,9 @@ A benchmark testing the SVG generation capabilities of major large language mode
 
 ### Meta
 
-**Muse Spark 1.2** (2026-08-05)
-
-<img src="meta/muse-spark-1.2/muse-spark-1.2.png" width="300" height= "250" alt="Muse Spark 1.2">
+| | |
+|---|---|
+| **Muse Spark 1.2**<br>2026-08-05<br><img src="meta/muse-spark-1.2/muse-spark-1.2.png" width="300" height= "250" alt="Muse Spark 1.2"> | **Muse Spark 1.3**<br>2026-09-03<br><img src="meta/muse-spark-1.3/muse-spark-1.3-xhigh.png" width="300" height= "250" alt="Muse Spark 1.3"> |
 
 ### Tencent
 
