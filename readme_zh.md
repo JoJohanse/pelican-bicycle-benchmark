@@ -11,7 +11,7 @@ SVG生成基准测试
 
 ## 结果总览
 
-共 9 家厂商、22 个模型。厂商按其最早模型的发布时间排列，同一厂商内的模型按发布时间先后排序。
+共 9 家厂商、23 个模型。厂商按其最早模型的发布时间排列，同一厂商内的模型按发布时间先后排序。
 
 | 厂商 | 模型 | 发布时间 | 思考强度 | 输出文件 |
 |---|---|---|---|---|
@@ -23,6 +23,7 @@ SVG生成基准测试
 | OpenAI | GPT-5.6 Luna | 2026-07-09 | high / xhigh / max | `GPT/gpt-5.6-luna/` |
 | OpenAI | GPT-5.6 Sol | 2026-07-09 | high / xhigh / max | `GPT/gpt-5.6-sol/` |
 | OpenAI | GPT-5.6 Terra | 2026-07-09 | high / xhigh / max | `GPT/gpt-5.6-terra/` |
+| OpenAI | GPT-6 Astra | 2026-09-03 | low / medium / high / xhigh / max | `GPT/gpt-6-astra/` |
 | DeepSeek | DeepSeek V4 Flash | 2026-07-31 | max | `DeepSeek/deepseek-v4-flash/v4-flash.png` |
 | DeepSeek | DeepSeek V4 Pro | 2026-08-13 | max | `DeepSeek/deepseek-v4-pro/v4-pro.png` |
 | DeepSeek | DeepSeek V4.1 | — | max | `DeepSeek/deepseek-v4.1/v4.1.png` |
@@ -60,6 +61,12 @@ SVG生成基准测试
 | **Luna** | <img src="GPT/gpt-5.6-luna/high/high.png" width="300" height="250" alt="GPT-5.6 Luna high"> | <img src="GPT/gpt-5.6-luna/xhigh/xhigh.png" width="300" height="250" alt="GPT-5.6 Luna xhigh"> | <img src="GPT/gpt-5.6-luna/max/max.png" width="300" height="250" alt="GPT-5.6 Luna max"> |
 | **Sol** | <img src="GPT/gpt-5.6-sol/high/high.png" width="300" height="250" alt="GPT-5.6 Sol high"> | <img src="GPT/gpt-5.6-sol/xhigh/xhigh.png" width="300" height="250" alt="GPT-5.6 Sol xhigh"> | <img src="GPT/gpt-5.6-sol/max/max.png" width="300" height="250" alt="GPT-5.6 Sol max"> |
 | **Terra** | <img src="GPT/gpt-5.6-terra/high/5.6-terra-high.png" width="300" height="250" alt="GPT-5.6 Terra high"> | <img src="GPT/gpt-5.6-terra/xhigh/5.6-terra-xhigh.png" width="300" height="250" alt="GPT-5.6 Terra xhigh"> | <img src="GPT/gpt-5.6-terra/max/5.6-terra-max.png" width="300" height="250" alt="GPT-5.6 Terra max"> |
+
+**GPT-6 Astra** (2026-09-03)
+
+| | low | medium | high | xhigh | max |
+|---|---|---|---|---|---|
+| **Astra** | <img src="GPT/gpt-6-astra/low.png" width="300" height="250" alt="GPT-6 Astra low"> | <img src="GPT/gpt-6-astra/medium.png" width="300" height="250" alt="GPT-6 Astra medium"> | <img src="GPT/gpt-6-astra/high.png" width="300" height="250" alt="GPT-6 Astra high"> | <img src="GPT/gpt-6-astra/xhigh.png" width="300" height="250" alt="GPT-6 Astra xhigh"> | <img src="GPT/gpt-6-astra/max.png" width="300" height="250" alt="GPT-6 Astra max"> |
 
 ### DeepSeek
 
