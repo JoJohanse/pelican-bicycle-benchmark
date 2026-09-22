@@ -11,7 +11,7 @@ SVG生成基准测试
 
 ## 结果总览
 
-共 9 家厂商、23 个模型。厂商按其最早模型的发布时间排列，同一厂商内的模型按发布时间先后排序。
+共 9 家厂商、25 个模型。厂商按其最早模型的发布时间排列，同一厂商内的模型按发布时间先后排序。
 
 | 厂商 | 模型 | 发布时间 | 思考强度 | 输出文件 |
 |---|---|---|---|---|
@@ -28,6 +28,8 @@ SVG生成基准测试
 | DeepSeek | DeepSeek V4 Pro | 2026-08-13 | max | `DeepSeek/deepseek-v4-pro/v4-pro.png` |
 | DeepSeek | DeepSeek V4.1 | — | max | `DeepSeek/deepseek-v4.1/v4.1.png` |
 | 小米 | MiMo v2.5 Pro | 2026-04-27 | max | `xiaomi/mimo-v2.5-pro/mimo-v2.5-pro.png` |
+| 小米 | MiMo v2.6 Pro | 2026-09-22 | max | `xiaomi/mimo-v2.6/pro/mimo-v2.6-pro.png` |
+| 小米 | MiMo v2.6 Flash | 2026-09-22 | max | `xiaomi/mimo-v2.6/flash/mimo-v2.6-flash.png` |
 | 智谱 | GLM-5.2 | 2026-06-16 | max | `GLM/glm-5.2/glm-5.2-max.jpg` |
 | 智谱 | GLM-5.3 | 2026-08-14 | max | `GLM/glm-5.3/glm-5.3-max.png` |
 | 智谱 | GLM-5.3 Flash | 2026-08-14 | — | `GLM/glm-5.3/glm-5.3-flash.png` |
@@ -76,9 +78,9 @@ SVG生成基准测试
 
 ### 小米 Mimo
 
-**MiMo v2.5 Pro** (2026-04-27, max)
-
-<img src="xiaomi/mimo-v2.5-pro/mimo-v2.5-pro.png" width="300" height="250" alt="MiMo v2.5 Pro">
+| | | |
+|---|---|---|
+| **MiMo v2.5 Pro**<br>2026-04-27<br><img src="xiaomi/mimo-v2.5-pro/mimo-v2.5-pro.png" width="300" height="250" alt="MiMo v2.5 Pro"> | **MiMo v2.6 Pro**<br>2026-09-22<br><img src="xiaomi/mimo-v2.6/pro/mimo-v2.6-pro.png" width="300" height="250" alt="MiMo v2.6 Pro"> | **MiMo v2.6 Flash**<br>2026-09-22<br><img src="xiaomi/mimo-v2.6/flash/mimo-v2.6-flash.png" width="300" height="250" alt="MiMo v2.6 Flash"> |
 
 ### 智谱 GLM
 

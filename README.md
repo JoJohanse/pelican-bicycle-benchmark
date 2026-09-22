@@ -11,7 +11,7 @@ A benchmark testing the SVG generation capabilities of major large language mode
 
 ## Results Overview
 
-9 vendors, 23 models in total. Vendors are ordered by the release date of their earliest model; models within each vendor are listed chronologically.
+9 vendors, 25 models in total. Vendors are ordered by the release date of their earliest model; models within each vendor are listed chronologically.
 
 | Vendor | Model | Release Date | Thinking Effort | Output File |
 |---|---|---|---|---|
@@ -28,6 +28,8 @@ A benchmark testing the SVG generation capabilities of major large language mode
 | DeepSeek | DeepSeek V4 Pro | 2026-08-13 | max | `DeepSeek/deepseek-v4-pro/v4-pro.png` |
 | DeepSeek | DeepSeek V4.1 | — | max | `DeepSeek/deepseek-v4.1/v4.1.png` |
 | Xiaomi | MiMo v2.5 Pro | 2026-04-27 | max | `xiaomi/mimo-v2.5-pro/mimo-v2.5-pro.png` |
+| Xiaomi | MiMo v2.6 Pro | 2026-09-22 | max | `xiaomi/mimo-v2.6/pro/mimo-v2.6-pro.png` |
+| Xiaomi | MiMo v2.6 Flash | 2026-09-22 | max | `xiaomi/mimo-v2.6/flash/mimo-v2.6-flash.png` |
 | Z.ai | GLM-5.2 | 2026-06-16 | max | `GLM/glm-5.2/glm-5.2-max.jpg` |
 | Z.ai | GLM-5.3 | 2026-08-14 | max | `GLM/glm-5.3/glm-5.3-max.png` |
 | Z.ai | GLM-5.3 Flash | 2026-08-14 | — | `GLM/glm-5.3/glm-5.3-flash.png` |
@@ -76,9 +78,9 @@ A benchmark testing the SVG generation capabilities of major large language mode
 
 ### Xiaomi
 
-**MiMo v2.5 Pro** (2026-04-27, max)
-
-<img src="xiaomi/mimo-v2.5-pro/mimo-v2.5-pro.png" width="300" height="250" alt="MiMo v2.5 Pro">
+| | | |
+|---|---|---|
+| **MiMo v2.5 Pro**<br>2026-04-27<br><img src="xiaomi/mimo-v2.5-pro/mimo-v2.5-pro.png" width="300" height="250" alt="MiMo v2.5 Pro"> | **MiMo v2.6 Pro**<br>2026-09-22<br><img src="xiaomi/mimo-v2.6/pro/mimo-v2.6-pro.png" width="300" height="250" alt="MiMo v2.6 Pro"> | **MiMo v2.6 Flash**<br>2026-09-22<br><img src="xiaomi/mimo-v2.6/flash/mimo-v2.6-flash.png" width="300" height="250" alt="MiMo v2.6 Flash"> |
 
 ### Z.ai
 
